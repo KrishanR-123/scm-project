@@ -69,7 +69,7 @@ int main()//main function//
  
                 scanf("%d",&ch);
  
-            switch(ch)
+            switch(ch)//switch case//
  
                     {
  
@@ -204,7 +204,7 @@ void addrecord( )
                 {
  
                     if(strcmp(e.time,time)==0)
- 
+ //if statement//
                     {
  
                         printf("\n\tTHE RECORD ALREADY EXISTS.\n");
@@ -317,7 +317,7 @@ printf("\n\t\t*******************************\n\n");
 
                     if ( fpte == NULL )
 
-                    {
+                    {//if statement//
 
                          printf( "\nRECORD DOES NOT EXISTS:" ) ;
 
@@ -377,7 +377,7 @@ printf("\n\t\t*******************************\n\n");
 
                    fflush(stdin);
 
-                   switch(num)
+                   switch(num)//switch case//
 
                    {
 
