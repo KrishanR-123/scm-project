@@ -1,3 +1,4 @@
+//code start//
 #include<stdio.h>
  
 #include<stdlib.h>
