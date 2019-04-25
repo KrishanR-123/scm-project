@@ -7,17 +7,17 @@
 #include<string.h>
 //header files//
  
-int password();
+int password();//for password//
  
-void addrecord();
+void addrecord();//to add record//
  
-void viewrecord();
+void viewrecord();//to display record//
  
-void editrecord();
+void editrecord();//to edit record//
  
-void editpassword();
+void editpassword();//to edit password//
  
-void deleterecord();
+void deleterecord();//to delete record//
  //functions initialisations//
 struct record
  
