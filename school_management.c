@@ -22,7 +22,7 @@ void deleterecord();
 struct record
  
 {
- 
+ //variables initialisations//
     char time[6];
  
     char name[30];
@@ -33,9 +33,9 @@ struct record
  
     char note[500];
  
-} ;
+} ;//structure completed//
  
-int main()
+int main()//main function//
  
 {
  
