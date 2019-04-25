@@ -5,6 +5,7 @@
 #include<conio.h>
  
 #include<string.h>
+//header files//
  
 int password();
  
@@ -17,7 +18,7 @@ void editrecord();
 void editpassword();
  
 void deleterecord();
- 
+ //functions initialisations//
 struct record
  
 {
