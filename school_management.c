@@ -1329,5 +1329,5 @@ void deleterecord( )
  
                 getch();
  
-}
+};
 
