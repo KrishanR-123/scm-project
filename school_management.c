@@ -5,6 +5,7 @@
 #include<conio.h>
  
 #include<string.h>
+//header files//
  
 int password();
  
@@ -17,11 +18,11 @@ void editrecord();
 void editpassword();
  
 void deleterecord();
- 
+ //functions initialisations//
 struct record
  
 {
- 
+ //variables initialisations//
     char time[6];
  
     char name[30];
@@ -32,9 +33,9 @@ struct record
  
     char note[500];
  
-} ;
+} ;//structure completed//
  
-int main()
+int main()//main function//
  
 {
  
