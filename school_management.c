@@ -39,7 +39,7 @@ int main()//main function//
  
 {
  
-    int ch;
+    int ch;//variable declaration//
  
     printf("\n\n\t***********************************\n");
  
@@ -69,7 +69,7 @@ int main()//main function//
  
                 scanf("%d",&ch);
  
-            switch(ch)
+            switch(ch)//switch case//
  
                     {
  
@@ -342,7 +342,7 @@ void viewrecord( )
  
                 scanf("%d",&ch);
  
-                switch(ch)
+                switch(ch)//switch case//
  
                 {
  
@@ -494,7 +494,7 @@ void viewrecord( )
  
                 scanf("%d",&ch);
  
-                switch(ch)
+                switch(ch)//switch case//
  
                 {
  
@@ -578,10 +578,10 @@ void viewrecord( )
  
 }
 
+//function completed//
 
 
 
-=======
 //maulik starts
 void editrecord()
 
@@ -614,7 +614,7 @@ printf("\n\t\t*******************************\n\n");
         }
 
         do
-
+//do while //
         {
 
            printf("\n\tENTER THE DATE OF RECORD TO BE EDITED:[yyyy-mm-dd]:");
@@ -648,7 +648,7 @@ printf("\n\t\t*******************************\n\n");
            {
 
                 if(strcmp(customer.time,time)==0)
-
+//if statement//
                {
 
                    printf("\nYOUR OLD RECORD WAS AS:");
@@ -830,7 +830,7 @@ fread(&customer,sizeof(customer),1,fpte);
                        scanf("%c",&choice);
 
                     }
-
+//do while//
 }while(choice=='Y'||choice=='y');
 
 fclose( fpte ) ;
@@ -882,7 +882,7 @@ int password()
  
 
                         
-=======
+
                         fpp=fopen("SE","r");
  
                         if (fpp==NULL)
@@ -1196,7 +1196,7 @@ void deleterecord( )
                 printf("\n\t#DELETE A PARTICULAR RECORD BY TIME\t[2]");
  
                 do
- 
+ //do while statement//
                 {
  
                         printf("\n\t\tENTER YOU CHOICE:");
