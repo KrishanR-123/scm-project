@@ -39,7 +39,7 @@ int main()//main function//
  
 {
  
-    int ch;
+    int ch;//variable declaration//
  
     printf("\n\n\t***********************************\n");
  
@@ -291,7 +291,7 @@ printf("\n\t\t*******************************\n\n");
 
         choice=password();
 
-        if(choice!=0)
+        if(choice!=0)//if statement//
 
         {
 
@@ -366,7 +366,7 @@ printf("\n\t\t*******************************\n\n");
                    printf("\n7.GO BACK TO MAIN MENU.");
 
                 do
-
+//do while statement//
                {
 
                    printf("\n\tENTER YOUR CHOICE:");
