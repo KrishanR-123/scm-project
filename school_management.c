@@ -14,7 +14,7 @@ void addrecord();//to add record//
  
 void viewrecord();//to display record//
  
-void editrecord();//to edit record//
+void editrecord();
  
 void editpassword();//to edit password//
  
