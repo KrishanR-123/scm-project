@@ -40,7 +40,7 @@ int main()//main function//
  
 {
  
-    int ch;
+    int ch;//variable declaration//
  
     printf("\n\n\t***********************************\n");
  
@@ -70,7 +70,7 @@ int main()//main function//
  
                 scanf("%d",&ch);
  
-            switch(ch)
+            switch(ch)//switch case//
  
                     {
  
@@ -207,7 +207,7 @@ void addrecord( )
                 {
  
                     if(strcmp(e.time,time)==0)
- 
+ //if statement//
                     {
  
                         printf("\n\tTHE RECORD ALREADY EXISTS.\n");
@@ -606,7 +606,7 @@ printf("\n\t\t*******************************\n\n");
 
         choice=password();
 
-        if(choice!=0)
+        if(choice!=0)//if statement//
 
         {
 
@@ -632,7 +632,7 @@ printf("\n\t\t*******************************\n\n");
 
                     if ( fpte == NULL )
 
-                    {
+                    {//if statement//
 
                          printf( "\nRECORD DOES NOT EXISTS:" ) ;
 
@@ -681,7 +681,7 @@ printf("\n\t\t*******************************\n\n");
                    printf("\n7.GO BACK TO MAIN MENU.");
 
                 do
-
+//do while statement//
                {
 
                    printf("\n\tENTER YOUR CHOICE:");
@@ -692,7 +692,7 @@ printf("\n\t\t*******************************\n\n");
 
                    fflush(stdin);
 
-                   switch(num)
+                   switch(num)//switch case//
 
                    {
 
